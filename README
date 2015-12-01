@@ -1,0 +1,64 @@
+!! Suggested edits are marked with two exclamation points as follows !!	
+
+	UW-SARP/DescentCalculations
+
+What is it?
+-----------
+
+The descent calculations are multiple graphs to provide simulation data on key factors
+during the descent of the Rocket. Original calculation code designed by Zach Perry. 
+GUI (Graphical User Interface) developed by Brandt Monson.  The current avionics & recovery
+team (15-16) hopes to improve and add upon the GUI, code-wise and calculation-wise.
+
+The GUI features editable values, which are as follows:
+
+-Area of the Main Parachute (Units?)!!
+-Opening Shock Factor (Units?)!!
+-Final Altitude (Ground Level, in ft)
+-Initial Altitude (ft)
+-Initial Velocity (ft/s)
+-Time Step (s)
+-Rocket Dry Weight (lb)
+-Acceleration due to gravity (ft/s^2)
+
+Latest Version
+--------------
+
+The latest version and documentation can be found on UW-SARP's public repository
+on Github.com at https://github.com/UW-SARP/DescentCalculations. The repository
+can also be found via a search with the keywords UW-SARP or DescentCalculations.
+
+Files
+-----
+
+Currently the GUI consists of three files, all of which are required to run the 
+program. The files and a short description are listed as follows:
+
+DescentCalculations.fig  - MATLAB figure file, essentially the "program" to run
+			                     the GUI. 
+DescentCalculations.m    - MATLAB code file, contains the code used by the .fig
+			                     file to run the GUI. This is the part that will mainly
+			                     be edited.
+Standard Atmosphere.xlsx - Excel spreadsheet containing standard temperatures and
+			                     pressures for a range of altitudes. Altitude values 
+			                     range from 0 to 80000 and increment by 50. 
+
+Installation/Use
+----------------
+
+A copy of MATLAB by MathWorks is required to run the GUI. A trial of MATLAB can be
+obtained from the official MathWorks website at http://www.mathworks.com/products/matlab/
+The software can also be purchased from the MathWorks website. However for UW faculty
+and students, a one-year license of MATLAB can be obtained through UW's IT-connect
+program. The link to the information page follows: 
+https://www.washington.edu/itconnect/wares/uware/matlab/
+
+To run the GUI (Graphical User Interface), first install MATLAB. Then make sure all
+the files are in the same folder, and then open the DescentCalculations.fig file.
+To edit the code, open the DescentCalculations.m file in MATLAB. 
+
+Bugs/Suggestions
+----------------
+
+See a bug or got a suggestion? Fork us on Github! The url for the repository is located
+under the "latest version" section!
